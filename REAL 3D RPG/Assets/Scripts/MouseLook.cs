@@ -8,7 +8,7 @@ namespace Debugging.Player
         public enum RotationalAxis
         {
             MouseX,
-            MouseY,
+            MouseY
         }
         
         [Header("Rotation Variables")]
@@ -17,7 +17,7 @@ namespace Debugging.Player
         public float sensitivity = 100;
         public float minY = -60, maxY = 60;
         private float _rotY;
-        private float rotY;
+        
 
         void Start()
         {
@@ -32,16 +32,16 @@ namespace Debugging.Player
                 axis = RotationalAxis.MouseY;
             }
         }
-        void update()
+        void FixedUpdate()
         {
             if(axis == RotationalAxis.MouseX)
             {
-                transform.Rotate(0,Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime,0);
+                transform.Rotate(0,Input.GetAxis("Mouse X") * sensitivity * Time.fixedDeltaTime,0);
             }
             else
             {
-                _rotY += Input.GetAxis("MouseY")  * sensitivity * Time.deltaTime;
-                _rotY = Mathf.Clamp(rotY,minY,maxY);
+                _rotY += Input.GetAxis("Mouse Y")  * sensitivity * Time.deltaTime;
+                _rotY = Mathf.Clamp(_rotY,minY,maxY);
                 transform.localEulerAngles = new Vector3(-_rotY,0.0f);
             }
         }
