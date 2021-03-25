@@ -1,0 +1,1034 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32603 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/3bf6da335fa91fd9/Documents/GitHub/3DRPG-2.0/REAL 3D RPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50107
+Successfully changed project path to: C:/Users/3bf6da335fa91fd9/Documents/GitHub/3DRPG-2.0/REAL 3D RPG
+C:/Users/3bf6da335fa91fd9/Documents/GitHub/3DRPG-2.0/REAL 3D RPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/3bf6da335fa91fd9/Documents/GitHub/3DRPG-2.0/REAL 3D RPG/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
+    Vendor:   
+    VRAM:     5032 MB
+    Driver:   26.21.14.4112
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001099 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1151 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 1.376000 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.138100 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts
+  artifactKey: Guid(de5dcf0ef9821ad438033a1b79ffe0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(de5dcf0ef9821ad438033a1b79ffe0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45930dd760b09f20b9be271a35d15bae') in 0.007013 seconds
+  Import took 0.008594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.741584 seconds.
+  path: Assets/Warrior Babe
+  artifactKey: Guid(3170b09226b2f4f41b072068ba09ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe using Guid(3170b09226b2f4f41b072068ba09ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d733cb7141c558fda5d688fe1b3df0') in 0.007100 seconds
+  Import took 0.008955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Warrior Babe
+  artifactKey: Guid(3170b09226b2f4f41b072068ba09ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe using Guid(3170b09226b2f4f41b072068ba09ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d733cb7141c558fda5d688fe1b3df0') in 0.002169 seconds
+  Import took 0.003768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066941 seconds.
+  path: Assets/Warrior Babe/Warrior.FBX
+  artifactKey: Guid(549afb8cde370cf42a936163802115f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/Warrior.FBX using Guid(549afb8cde370cf42a936163802115f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7164f3639df59734dc8b36b11fd4f1') in 0.187688 seconds
+  Import took 0.189559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Warrior Babe/WarriorBabe.psd
+  artifactKey: Guid(cf5c2a5b9cf630a44af892cfb524c862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/WarriorBabe.psd using Guid(cf5c2a5b9cf630a44af892cfb524c862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a0866690d9e63e21cf2eed4e8c72b0') in 0.021584 seconds
+  Import took 0.023163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Warrior Babe/WarriorBabe.png
+  artifactKey: Guid(682580658eb671d49b8cf8dd73f3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/WarriorBabe.png using Guid(682580658eb671d49b8cf8dd73f3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee8d29b6d1ca57bd8eee1970859efab') in 0.020351 seconds
+  Import took 0.021911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269176 seconds.
+  path: Assets/Character Creator Files
+  artifactKey: Guid(b259826110a323e4f8973385c4d898b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files using Guid(b259826110a323e4f8973385c4d898b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6a6e72520239cbfbe6a6c2f78e94a9') in 0.005329 seconds
+  Import took 0.006976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077154 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0000 1.png
+  artifactKey: Guid(c4ecefb1f891906459e5bc7b869f2d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0000 1.png using Guid(c4ecefb1f891906459e5bc7b869f2d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9afa2a0cad307ebfd6ae0ca2f8a6e50') in 0.038658 seconds
+  Import took 0.040341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0009.png
+  artifactKey: Guid(7f1b123faeeafb946bebcb0bb7b2a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0009.png using Guid(7f1b123faeeafb946bebcb0bb7b2a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d52be62c26f2262a9b778783df253d9') in 0.016825 seconds
+  Import took 0.018356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0042.png
+  artifactKey: Guid(4cfc50675a90b44438b9fcba0b7d6e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0042.png using Guid(4cfc50675a90b44438b9fcba0b7d6e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b191ce342f963ee3a89b6e0967ecf4') in 0.020162 seconds
+  Import took 0.021752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0001.png
+  artifactKey: Guid(04d1d5df5d95fe34eafca52ce1e27012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0001.png using Guid(04d1d5df5d95fe34eafca52ce1e27012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a713dd76b653e708495f367b224fed1d') in 0.022529 seconds
+  Import took 0.024044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0025.png
+  artifactKey: Guid(80bcbfc00657f2e44be8e3c3ba12c31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0025.png using Guid(80bcbfc00657f2e44be8e3c3ba12c31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0883d940a450a565707372f25644416c') in 0.020037 seconds
+  Import took 0.021571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0028.png
+  artifactKey: Guid(fe6d6dbcce01ccd418aa40541505ef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0028.png using Guid(fe6d6dbcce01ccd418aa40541505ef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be44d211e35a0af2a472645636fc8e3e') in 0.021031 seconds
+  Import took 0.022535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0016.png
+  artifactKey: Guid(7a21e4f8e6162f147b503e8b32336935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0016.png using Guid(7a21e4f8e6162f147b503e8b32336935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c73a3ae1e549aff502e697f377a82a4') in 0.021127 seconds
+  Import took 0.022651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0033.png
+  artifactKey: Guid(befdaf02618a90d4ba8b0ec2b3fa476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0033.png using Guid(befdaf02618a90d4ba8b0ec2b3fa476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5fb2804296fc5d395c0d6fe3bcc5f8') in 0.018885 seconds
+  Import took 0.020826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0002.png
+  artifactKey: Guid(b6b7f9cbfdf376142b317a1f936014d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0002.png using Guid(b6b7f9cbfdf376142b317a1f936014d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bdbb7e6040316cad6174265b87920f') in 0.023388 seconds
+  Import took 0.024972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0018.png
+  artifactKey: Guid(9a6a4fa8bc0a8d749bb0fdebfd713b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0018.png using Guid(9a6a4fa8bc0a8d749bb0fdebfd713b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52de27a5dd78bce3f5af474dfb247bf2') in 0.019775 seconds
+  Import took 0.021293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0000 2.png
+  artifactKey: Guid(280c3cfce042b024aa5baeb2be5e5a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0000 2.png using Guid(280c3cfce042b024aa5baeb2be5e5a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6735172e25152e2180cdc6b9ffb726') in 0.021100 seconds
+  Import took 0.022629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0004.png
+  artifactKey: Guid(e4d78772b5acb4441b5059a82f3c4de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0004.png using Guid(e4d78772b5acb4441b5059a82f3c4de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a1a328711337971508ae54d5b064b7') in 0.020867 seconds
+  Import took 0.022391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0005.png
+  artifactKey: Guid(f7a8737d0cfcc604caa06286627d8d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0005.png using Guid(f7a8737d0cfcc604caa06286627d8d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecce3199c09bf6c4e2d91aae1149860') in 0.016138 seconds
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0010.png
+  artifactKey: Guid(64c7cbbeeaab3c84d9f89dba3a258a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0010.png using Guid(64c7cbbeeaab3c84d9f89dba3a258a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa0162e91fba38eb8ee4452ab219a5c') in 0.020912 seconds
+  Import took 0.022774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0000.png
+  artifactKey: Guid(f8456dc49df73ab46befba8fbf3bb938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0000.png using Guid(f8456dc49df73ab46befba8fbf3bb938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2f0c4e50054c78914e0664813c973f') in 0.012199 seconds
+  Import took 0.013715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0030.png
+  artifactKey: Guid(627529ff4b16f6946b9d9dbfd630f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0030.png using Guid(627529ff4b16f6946b9d9dbfd630f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a72f1e04d039fc84d5bcb7d2160793') in 0.017529 seconds
+  Import took 0.019088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0020.png
+  artifactKey: Guid(059da1285b3439644a10011aea1de75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0020.png using Guid(059da1285b3439644a10011aea1de75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c968eb9479a23fa0c81fba4c458631e4') in 0.017325 seconds
+  Import took 0.019288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0034.png
+  artifactKey: Guid(028ec4804522b164f80d1f7736629ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0034.png using Guid(028ec4804522b164f80d1f7736629ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9a41a68d3a5c922afb6bfcc885d61') in 0.021070 seconds
+  Import took 0.022784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0023.png
+  artifactKey: Guid(029c450c45209d541ab6cdbd75241686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0023.png using Guid(029c450c45209d541ab6cdbd75241686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b4573fde2771da63fd154259db6fad') in 0.016849 seconds
+  Import took 0.018456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0041.png
+  artifactKey: Guid(8a9b57090bbcaff4f90603485689c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0041.png using Guid(8a9b57090bbcaff4f90603485689c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4fcb5221a04cece84448e251ee2f8') in 0.017664 seconds
+  Import took 0.019439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0008.png
+  artifactKey: Guid(c580bb82ab00aab48a47345b017f9446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0008.png using Guid(c580bb82ab00aab48a47345b017f9446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b513ed68d62fe90b90fa74a82e5e718c') in 0.017395 seconds
+  Import took 0.019001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0019.png
+  artifactKey: Guid(c59fcd47431e4f54cb323d0a64e859da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0019.png using Guid(c59fcd47431e4f54cb323d0a64e859da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab45601f043e6af11e3889bfc9e017a') in 0.015404 seconds
+  Import took 0.017135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0006.png
+  artifactKey: Guid(5615c37f8cfc2124c87b0bff8a1fdd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0006.png using Guid(5615c37f8cfc2124c87b0bff8a1fdd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4802f49c24b63ffff11b665ca08edc') in 0.012331 seconds
+  Import took 0.013879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0024.png
+  artifactKey: Guid(c4083f7969bc5fd4ca7a3cd6ec03bd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0024.png using Guid(c4083f7969bc5fd4ca7a3cd6ec03bd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ff88a709eb7ccc961186d566792106') in 0.018456 seconds
+  Import took 0.020003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0021.png
+  artifactKey: Guid(80f48c0c9e873fe47b305f68bdc7e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0021.png using Guid(80f48c0c9e873fe47b305f68bdc7e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876a44fd09f2abf5a76b166b864e6e6f') in 0.014480 seconds
+  Import took 0.016080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0040.png
+  artifactKey: Guid(a1b1423ef735b65478dbdba30c38876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0040.png using Guid(a1b1423ef735b65478dbdba30c38876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7218f81c430d62bf0513fa8612fb3de5') in 0.011449 seconds
+  Import took 0.013079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0026.png
+  artifactKey: Guid(7b1d1abc0e703da459005a1b618d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0026.png using Guid(7b1d1abc0e703da459005a1b618d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd32cc366730f63952d46664d977b473') in 0.011830 seconds
+  Import took 0.013409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0029.png
+  artifactKey: Guid(e26e0056abdd4a34083c59d8d439eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0029.png using Guid(e26e0056abdd4a34083c59d8d439eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d9694daa7d49da31a8f3b396f91f77') in 0.014395 seconds
+  Import took 0.015953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0031.png
+  artifactKey: Guid(e883baf3ba139fc448c6591f084a0435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0031.png using Guid(e883baf3ba139fc448c6591f084a0435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94f6fa9f3dae1e40d956e6155eb90e8') in 0.011434 seconds
+  Import took 0.013015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0027.png
+  artifactKey: Guid(320588b80c05f724189f6411f917c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0027.png using Guid(320588b80c05f724189f6411f917c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affcdd67a23c6e85642de8394d148b7e') in 0.011380 seconds
+  Import took 0.012935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0013.png
+  artifactKey: Guid(db30ab366b75e3646a4698417739011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0013.png using Guid(db30ab366b75e3646a4698417739011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f04b7e0bfae2d7bc3951f6785c89a2') in 0.017408 seconds
+  Import took 0.019046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0038.png
+  artifactKey: Guid(138488a756bbceb498ed525b6f241517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0038.png using Guid(138488a756bbceb498ed525b6f241517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bd842ff452bebb08fe355093ba1da8') in 0.015024 seconds
+  Import took 0.016598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0017.png
+  artifactKey: Guid(f0dcbb147032e504f8af701605a2e1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0017.png using Guid(f0dcbb147032e504f8af701605a2e1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09475a0da30800da560c91fa16648d47') in 0.013822 seconds
+  Import took 0.015361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0011.png
+  artifactKey: Guid(b0ebcf7c2602bf243b3295379dcbc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0011.png using Guid(b0ebcf7c2602bf243b3295379dcbc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aca3c2d6caa718d8811925194293f9') in 0.011397 seconds
+  Import took 0.013093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0022.png
+  artifactKey: Guid(9e673219ce476364b8a901cbf1a2944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0022.png using Guid(9e673219ce476364b8a901cbf1a2944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd97c3879d2c522ae7291e31d74f01b0') in 0.011806 seconds
+  Import took 0.013377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0037.png
+  artifactKey: Guid(9b0186c8a682f8a4cacd74461c08019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0037.png using Guid(9b0186c8a682f8a4cacd74461c08019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef7eeab94964844766212762846a3e5') in 0.013260 seconds
+  Import took 0.014889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0035.png
+  artifactKey: Guid(c84191a608c73fe4fb524946ede00702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0035.png using Guid(c84191a608c73fe4fb524946ede00702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9664897bebf7c6f3dac80ed2f9275e3') in 0.017537 seconds
+  Import took 0.019147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0015.png
+  artifactKey: Guid(794d25acba67b7540982e3cb6c07611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0015.png using Guid(794d25acba67b7540982e3cb6c07611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77701843efe74b6e5c43e499931742c9') in 0.011801 seconds
+  Import took 0.013450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0036.png
+  artifactKey: Guid(4267be29946821c4cb7a94db80b6ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0036.png using Guid(4267be29946821c4cb7a94db80b6ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899f33b396ab1cb6d39ae3cc8c9f8109') in 0.013663 seconds
+  Import took 0.015289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0003.png
+  artifactKey: Guid(9bcbe3a63941e4d40a22ec29ee562f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0003.png using Guid(9bcbe3a63941e4d40a22ec29ee562f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d23a51a98e8c089872685fad071ab36') in 0.013365 seconds
+  Import took 0.014987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0039.png
+  artifactKey: Guid(b2706fb2734bf5540a16ae6e26db417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0039.png using Guid(b2706fb2734bf5540a16ae6e26db417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80160dbb990775815e15259fd27a852b') in 0.016907 seconds
+  Import took 0.018450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0012.png
+  artifactKey: Guid(247637f690666bb43aa4e675dad22b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0012.png using Guid(247637f690666bb43aa4e675dad22b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de44feb8d85ecbe40b80e24dd8e01c1') in 0.013531 seconds
+  Import took 0.015142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0039.png
+  artifactKey: Guid(b2706fb2734bf5540a16ae6e26db417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0039.png using Guid(b2706fb2734bf5540a16ae6e26db417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80160dbb990775815e15259fd27a852b') in 0.007733 seconds
+  Import took 0.009327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0032.png
+  artifactKey: Guid(0c565ac2f92f8a84883db33906af16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0032.png using Guid(0c565ac2f92f8a84883db33906af16e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0b98eab1aa8d1b44de10048f31a089') in 0.014050 seconds
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0014.png
+  artifactKey: Guid(25c2edca28223ec4db5008f377778eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0014.png using Guid(25c2edca28223ec4db5008f377778eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c312a15655652e3dc53e9e46fba7b7') in 0.017256 seconds
+  Import took 0.018786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0007.png
+  artifactKey: Guid(773dceb4096758d4694c168aed2684b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0007.png using Guid(773dceb4096758d4694c168aed2684b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129731ba8e84df1a75c52d42789ffc7b') in 0.013673 seconds
+  Import took 0.015188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.418337 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0043.png
+  artifactKey: Guid(e9b6ddce2694751448b2ab45ef6962c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0043.png using Guid(e9b6ddce2694751448b2ab45ef6962c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4acafe11eb971c6bed359d9db3a4ef') in 0.010613 seconds
+  Import took 0.012272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0048.png
+  artifactKey: Guid(51053ab8173b02545bd871497ce62910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0048.png using Guid(51053ab8173b02545bd871497ce62910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6217d94fed179b103c07df18ff070372') in 0.015055 seconds
+  Import took 0.016595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0053.png
+  artifactKey: Guid(748012405d0948842aff50d8c59caf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0053.png using Guid(748012405d0948842aff50d8c59caf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6653ec1a6d97b2be977f1316efbda118') in 0.017447 seconds
+  Import took 0.019220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0046.png
+  artifactKey: Guid(f7c43a0f9393a6b46914446a6a3f1f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0046.png using Guid(f7c43a0f9393a6b46914446a6a3f1f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bc81410a789a6539a9418ec6cbc1eb') in 0.014978 seconds
+  Import took 0.016953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0064.png
+  artifactKey: Guid(f1345bc82c27f83448dbf4f279189ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0064.png using Guid(f1345bc82c27f83448dbf4f279189ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a081f157053fa1960d50ab2fc16b52b4') in 0.018166 seconds
+  Import took 0.019868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0057.png
+  artifactKey: Guid(cbfa59a3ee953bd4bae11ac27d57d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0057.png using Guid(cbfa59a3ee953bd4bae11ac27d57d1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76961f0c76fc75afd19b99d45597ba6') in 0.016590 seconds
+  Import took 0.019029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0054.png
+  artifactKey: Guid(e6c9ac65f510fb74ab4b77ed1101097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0054.png using Guid(e6c9ac65f510fb74ab4b77ed1101097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c7704aea95e5960fb95a8b2a4cc142') in 0.018112 seconds
+  Import took 0.019645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0059.png
+  artifactKey: Guid(da9376904f4ca694f8fe77f7078adf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0059.png using Guid(da9376904f4ca694f8fe77f7078adf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b140eb80c266101d9dbd79132aa4b3b0') in 0.017924 seconds
+  Import took 0.019459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0050.png
+  artifactKey: Guid(3c83ff20964f7da4283f4e2f09263a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0050.png using Guid(3c83ff20964f7da4283f4e2f09263a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1674594e4bcc92cd7d871f32516a433') in 0.014019 seconds
+  Import took 0.015605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0049.png
+  artifactKey: Guid(8e137db105e840e47994f8b88d529729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0049.png using Guid(8e137db105e840e47994f8b88d529729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef921423dfacf15b864dbb05e2f7dd70') in 0.017181 seconds
+  Import took 0.018782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0055.png
+  artifactKey: Guid(2ddf175b2b6bf2148933e3dc6db8575c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0055.png using Guid(2ddf175b2b6bf2148933e3dc6db8575c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed7c7fcfeffa61bceed454f70b118b4') in 0.016200 seconds
+  Import took 0.017702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0060.png
+  artifactKey: Guid(4ebc6a8166bd73f49ba41d639b626d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0060.png using Guid(4ebc6a8166bd73f49ba41d639b626d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ea4e5570785c001793d66e2458a79b') in 0.015393 seconds
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0045.png
+  artifactKey: Guid(c4b50aa58a8bffb4a8a9aef9ce549fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0045.png using Guid(c4b50aa58a8bffb4a8a9aef9ce549fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e2c3c29847ac7faa8deec26a9bb0cd') in 0.010855 seconds
+  Import took 0.012446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0058.png
+  artifactKey: Guid(f463a26b6854acd4abb79f0836f8f0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0058.png using Guid(f463a26b6854acd4abb79f0836f8f0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7203b1de1324b9d288bb212318c2195f') in 0.011287 seconds
+  Import took 0.012785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0062.png
+  artifactKey: Guid(fd39766cb374a364eb3c11f73dd55f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0062.png using Guid(fd39766cb374a364eb3c11f73dd55f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdad1fc9106afd57c623f42484e2418') in 0.014801 seconds
+  Import took 0.016390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0044.png
+  artifactKey: Guid(625ed4be3adba844785abc95bcbbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0044.png using Guid(625ed4be3adba844785abc95bcbbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61705adbf58745ab623eaa3ae6d314e') in 0.017234 seconds
+  Import took 0.018758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0063.png
+  artifactKey: Guid(41620fcff8c3a864facd292ea45892cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0063.png using Guid(41620fcff8c3a864facd292ea45892cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ef50f3afc4c0266fae9e6bd8dd66b') in 0.013567 seconds
+  Import took 0.015154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0044.png
+  artifactKey: Guid(625ed4be3adba844785abc95bcbbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0044.png using Guid(625ed4be3adba844785abc95bcbbe674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61705adbf58745ab623eaa3ae6d314e') in 0.008616 seconds
+  Import took 0.010654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0056.png
+  artifactKey: Guid(6144a47cd993ff140b82b978bbb82109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0056.png using Guid(6144a47cd993ff140b82b978bbb82109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15f66d888369b2d732fb864f739d5cd') in 0.013024 seconds
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0061.png
+  artifactKey: Guid(0ec273d369461e14f8294a4f0199d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0061.png using Guid(0ec273d369461e14f8294a4f0199d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aabcbc37972d6382994ed17889c4d1a') in 0.012176 seconds
+  Import took 0.013920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0047.png
+  artifactKey: Guid(3b3c5df019acbff4cb091424c5acc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0047.png using Guid(3b3c5df019acbff4cb091424c5acc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec57685e1e1d587407a556f2007ec4d') in 0.013749 seconds
+  Import took 0.015763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0051.png
+  artifactKey: Guid(f5bcffe4df1337941aae603f25125b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0051.png using Guid(f5bcffe4df1337941aae603f25125b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f111fe6392f141f284aa2461ec5a6b7') in 0.012037 seconds
+  Import took 0.013628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0066.png
+  artifactKey: Guid(51a3a6f47d23b8c478e4ba1b96c05de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0066.png using Guid(51a3a6f47d23b8c478e4ba1b96c05de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ef97e6d20d97343413c6b8c8cdd642') in 0.016777 seconds
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0070.png
+  artifactKey: Guid(9b34c61a78b76b542a13c81f65d28a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0070.png using Guid(9b34c61a78b76b542a13c81f65d28a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080c607959ca7ca8a91206ba9c68841b') in 0.016288 seconds
+  Import took 0.017860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0073.png
+  artifactKey: Guid(16f57dec48f6ebe41b266cf1e2e2ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0073.png using Guid(16f57dec48f6ebe41b266cf1e2e2ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9778a04f4ea42b85dd8987a244916b72') in 0.016144 seconds
+  Import took 0.017690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0071 1.png
+  artifactKey: Guid(e926c452d2a4be941b9be9335248bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0071 1.png using Guid(e926c452d2a4be941b9be9335248bdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1f9388b16b0bfbea2c3c0b1b13473f') in 0.013307 seconds
+  Import took 0.014906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0065.png
+  artifactKey: Guid(3e70c3cad337b2f409d5e5c032ff9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0065.png using Guid(3e70c3cad337b2f409d5e5c032ff9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a84514208682b4e1b6bc718df5c52b') in 0.013158 seconds
+  Import took 0.014693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0073 1.png
+  artifactKey: Guid(786cd0e9af9f5964eb617169207a1e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0073 1.png using Guid(786cd0e9af9f5964eb617169207a1e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a1bdf90c23a1838dab1cf118080345') in 0.011758 seconds
+  Import took 0.013316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0067.png
+  artifactKey: Guid(eb2d77650e7436a408c19ed0b07bea71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0067.png using Guid(eb2d77650e7436a408c19ed0b07bea71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fffdff6f67577eb722a83c71451d7cb') in 0.014255 seconds
+  Import took 0.015767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0066 1.png
+  artifactKey: Guid(1f1ce0219fdcbb44e84e250282e27c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0066 1.png using Guid(1f1ce0219fdcbb44e84e250282e27c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2120a32e4f7cf58e33e93e414a460cc0') in 0.012245 seconds
+  Import took 0.013711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0068.png
+  artifactKey: Guid(0a5c36bc5cf000748b271fb676d3ac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0068.png using Guid(0a5c36bc5cf000748b271fb676d3ac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652b7ecf44446d3de1da0afdcd21cf88') in 0.013232 seconds
+  Import took 0.014751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0066 1.png
+  artifactKey: Guid(1f1ce0219fdcbb44e84e250282e27c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0066 1.png using Guid(1f1ce0219fdcbb44e84e250282e27c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2120a32e4f7cf58e33e93e414a460cc0') in 0.007640 seconds
+  Import took 0.009199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0071.png
+  artifactKey: Guid(20400d09a9b33664388bb93dfdd5b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0071.png using Guid(20400d09a9b33664388bb93dfdd5b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d26e2b6d92e0226649818601b4d0de') in 0.012573 seconds
+  Import took 0.014080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0069.png
+  artifactKey: Guid(8f845ab9c7feb5c4493348392e20bb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0069.png using Guid(8f845ab9c7feb5c4493348392e20bb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687cd0af78c0516a7dfa06612325ad6e') in 0.016182 seconds
+  Import took 0.017677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0073 3.png
+  artifactKey: Guid(fc30539c0e0ea2a46ad0497b656125cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0073 3.png using Guid(fc30539c0e0ea2a46ad0497b656125cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a358a30e79293376f47c92c4b259130') in 0.011257 seconds
+  Import took 0.012931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0073 2.png
+  artifactKey: Guid(cf63a3347e724b74d932f2c3656da2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0073 2.png using Guid(cf63a3347e724b74d932f2c3656da2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44d82674fceb27235474dbfef7684f6') in 0.013587 seconds
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0052.png
+  artifactKey: Guid(3d8e1a98afa709d4b8d4b3c250fca3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0052.png using Guid(3d8e1a98afa709d4b8d4b3c250fca3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f8513834cd969cd930beb52c2abdda') in 0.014409 seconds
+  Import took 0.016022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0072 1.png
+  artifactKey: Guid(3abd72c0a993cf5458a29a2ecb69acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0072 1.png using Guid(3abd72c0a993cf5458a29a2ecb69acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5fdb26c255340bf70188494de4ee37') in 0.013317 seconds
+  Import took 0.014830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0052.png
+  artifactKey: Guid(3d8e1a98afa709d4b8d4b3c250fca3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0052.png using Guid(3d8e1a98afa709d4b8d4b3c250fca3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f8513834cd969cd930beb52c2abdda') in 0.007962 seconds
+  Import took 0.009442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Character Creator Files/CharacterCreator_0072.png
+  artifactKey: Guid(43ea8eee1d97c7e4c8d2473cd867902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Creator Files/CharacterCreator_0072.png using Guid(43ea8eee1d97c7e4c8d2473cd867902b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810590764415a2de0946244d7bda3982') in 0.013024 seconds
+  Import took 0.014522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.615559 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(5baabc687926dcc4db98c604ac9eb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(5baabc687926dcc4db98c604ac9eb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25e6f10c0df436188cffaf015e35f74') in 0.012107 seconds
+  Import took 0.013706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015911 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(5baabc687926dcc4db98c604ac9eb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(5baabc687926dcc4db98c604ac9eb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25e6f10c0df436188cffaf015e35f74') in 0.002213 seconds
+  Import took 0.003834 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000467 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 1.238900 ms (FindLiveObjects: 0.102800 ms CreateObjectMapping: 0.026800 ms MarkObjects: 1.097700 ms  DeleteObjects: 0.010800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1645.
+Total: 1.394200 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.221500 ms  DeleteObjects: 0.011100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.608 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 1.531100 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.374300 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 1.707100 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.453500 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 1.335800 ms (FindLiveObjects: 0.119900 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.170100 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 1.416400 ms (FindLiveObjects: 0.119900 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.248800 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 456.431220 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(dbcefc1759bd96d47a0a70020cbfdb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(dbcefc1759bd96d47a0a70020cbfdb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dafbf327a0b6e9bde7698e4ba05fd85') in 0.006569 seconds
+  Import took 0.008767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017573 seconds.
+  path: Assets/Scripts/MouseLook.cs
+  artifactKey: Guid(dbcefc1759bd96d47a0a70020cbfdb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseLook.cs using Guid(dbcefc1759bd96d47a0a70020cbfdb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dafbf327a0b6e9bde7698e4ba05fd85') in 0.002090 seconds
+  Import took 0.003671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 1.260500 ms (FindLiveObjects: 0.113900 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.107900 ms  DeleteObjects: 0.010300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 1.673900 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.495100 ms  DeleteObjects: 0.011100 ms)
+
