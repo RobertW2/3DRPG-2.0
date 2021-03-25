@@ -40,7 +40,7 @@ public class Movement : MonoBehaviour
             {
                 moveSpeed = walkSpeed;
             }
-            _moveDir = transform.TransformDirection(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * moveSpeed);
+            _moveDir = transform.TransformDirection(new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * moveSpeed);
             if (Input.GetButton("Jump"))
             {
                 _moveDir.y = jumpSpeed;
