@@ -6,8 +6,10 @@ using UnityEngine;
 public class Factions
 {
     public string factionName;
-
+    [SerializeField, Range(-1, 1)] 
     float _approval;
+
+  
 
     public float approval
     {
@@ -24,6 +26,11 @@ public class Factions
 
         }
     }
+
+    public Factions(float initialApproval)
+    {
+        approval = initialApproval;
+    }
 }
 
 public class FactionManager : MonoBehaviour
@@ -31,7 +38,7 @@ public class FactionManager : MonoBehaviour
 
     [SerializeField]
     Dictionary<string, Factions> factions;
-
+    [SerializeField] List<Factions> initialiseFactions;
 
     public static FactionManager instance;
 
@@ -47,10 +54,13 @@ public class FactionManager : MonoBehaviour
         }
 
         factions = new Dictionary<string, Factions>();
-        factions.Add("LeaguePlayers", new Factions());
+        foreach(Factions faction in initialiseFactions)
+        {
+            factions.Add(faction.factionName, faction);
+        }
     }
 
-   public float? factionsApproval(string factionName, float value)
+   public float? FactionsApproval(string factionName, float value)
     {
         if (factions.ContainsKey(factionName))
         {
@@ -60,7 +70,7 @@ public class FactionManager : MonoBehaviour
         return null;
     }
 
-    public float? getFactionsApproval(string factionName, float value)
+    public float? getFactionsApproval(string factionName)
     {
         if (factions.ContainsKey(factionName))
         {
@@ -69,4 +79,12 @@ public class FactionManager : MonoBehaviour
         }
         return null;
     }
+
+
+    /*
+    void PretendMethod()
+    {
+        FactionManager.instance.FactionsApproval("League Players", -0.05f);
+    }
+    */
 }

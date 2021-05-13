@@ -15,38 +15,16 @@ public class Dialogue : MonoBehaviour
 
      private void Update()
      {
-        if (!firstDialogue) return;
-        if (Input.GetKeyDown(KeyCode.E))
-         {
-             DialogueManager.instance.LoadDialogue(this);
-         }
+
+        //if (!firstDialogue) return;
+        //if (Input.GetKeyDown(KeyCode.E))
+        // {
+        //     DialogueManager.instance.LoadDialogue(this);
+        // }
      }
     
 
 
-  /*  private void Update()
-    {
-
-
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.forward, out hit, 2))
-            {
-                if (hit.transform.tag == "NPC")
-                {
-                    Dialogue npcDialogue = hit.transform.GetComponent<Dialogue>();
-                    if (npcDialogue != null)
-                    {
-                        DialogueManager.instance.LoadDialogue(this);
-                    }
-                }
-            }
-        }
-    }
-       
-    */
 
 }
 

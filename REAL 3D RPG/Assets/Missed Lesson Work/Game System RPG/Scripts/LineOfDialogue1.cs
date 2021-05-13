@@ -11,6 +11,7 @@ public class LineOfDialogue1
     public int minIntel;
 
     public float minApproval = -1f;
+    public float changeApproval = 0f;
 
     public Dialogue nextDialogue;
 

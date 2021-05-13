@@ -17,6 +17,8 @@ namespace Debugging.Player
         public float sensitivity = 100;
         public float minY = -60, maxY = 60;
         private float _rotY;
+
+
         
 
         void Start()

@@ -7,7 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
     [SerializeField] Text responseText;
-    public Dialogue currentDialogue;
+    //public Dialogue currentDialogue;
 
 
     Dialogue loadedDialogue;
@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
         Button spawnedButton;
         foreach (LineOfDialogue1 item in _dialogue.DialogueOptions)
         {
-            float currentApproval = FactionManager.instance.getFactionsApproval(_dialogue.faction);
+            float? currentApproval = FactionManager.instance.getFactionsApproval(_dialogue.faction);
             if (currentApproval != null && currentApproval > item.minApproval) 
             {
                 spawnedButton = Instantiate(buttonPrefab, dialogueButtonPanel).GetComponent<Button>();
@@ -80,7 +80,7 @@ public class DialogueManager : MonoBehaviour
 
         if (loadedDialogue.goodbye.nextDialogue != null)
         {
-            LoadDialogue(currentDialogue.goodbye.nextDialogue);
+            LoadDialogue(loadedDialogue.goodbye.nextDialogue);
            // currentDialogue = currentDialogue.goodbye.nextDialogue;
            
 
@@ -93,8 +93,17 @@ public class DialogueManager : MonoBehaviour
 
     void ButtonPressed(int _index)
     {
+        FactionManager.instance.FactionsApproval(loadedDialogue.faction, loadedDialogue.DialogueOptions[_index].changeApproval);
         // print(loadedDialogue.DialogueOptions[_index].response);
-        DisplayResponse(loadedDialogue.DialogueOptions[_index].response);
+        // DisplayResponse(loadedDialogue.DialogueOptions[_index].response);
+        if (loadedDialogue.DialogueOptions[_index].nextDialogue != null)
+        {
+            LoadDialogue(loadedDialogue.DialogueOptions[_index].nextDialogue);
+        }
+        else
+        {
+            DisplayResponse(loadedDialogue.DialogueOptions[_index].response);
+        }
     }
     // move to the top with other variables
     private void DisplayResponse(string response)
