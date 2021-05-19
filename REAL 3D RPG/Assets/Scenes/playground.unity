@@ -379,6 +379,144 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &750823789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750823790}
+  - component: {fileID: 750823794}
+  - component: {fileID: 750823793}
+  - component: {fileID: 750823792}
+  - component: {fileID: 750823791}
+  m_Layer: 0
+  m_Name: Netflix NPC
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &750823790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750823789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.32, y: 1.26, z: -5.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1654924751}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &750823791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750823789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c671e82b3cb494d81ca7c104e71b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greeting: Hello!, How may i be of service?
+  faction: Netflix Watchers
+  goodbye:
+    topic: Catch you later.
+    response: See ya bro.
+    minIntel: 0
+    minApproval: -1
+    changeApproval: 0
+    nextDialogue: {fileID: 0}
+  DialogueOptions:
+  - topic: So many great shows on Netflix!
+    response: I know right! too much selection!
+    minIntel: 0
+    minApproval: -1
+    changeApproval: 2
+    nextDialogue: {fileID: 0}
+  - topic: Nice Weather aye?
+    response: Yeh, great day for a walk
+    minIntel: 0
+    minApproval: 0.9
+    changeApproval: 0
+    nextDialogue: {fileID: 0}
+  - topic: "Netflix Sucks!\t"
+    response: BIG MOUTH U HAVE BUDDY!
+    minIntel: 0
+    minApproval: 0.5
+    changeApproval: -0.2
+    nextDialogue: {fileID: 0}
+  firstDialogue: 1
+--- !u!136 &750823792
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750823789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &750823793
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750823789}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &750823794
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750823789}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1085335428
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +591,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1323625185}
+  - {fileID: 1703263776}
+  - {fileID: 1543006611}
+  - {fileID: 1560222244}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -809,6 +950,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: FactionsManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
+      propertyPath: initialiseFactions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
+      propertyPath: initialiseFactions.Array.data[0]._approval
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
+      propertyPath: initialiseFactions.Array.data[1]._approval
+      value: 0.929
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
+      propertyPath: initialiseFactions.Array.data[2]._approval
+      value: -0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
+      propertyPath: initialiseFactions.Array.data[1].factionName
+      value: Netflix Watchers
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
+      propertyPath: initialiseFactions.Array.data[2].factionName
+      value: Fortnite Players
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
 --- !u!4 &1323625185 stripped
@@ -839,9 +1004,37 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6832060476319678065, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 383.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832060476319678065, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -288.3622
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832060476319678065, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 191.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832060476319678065, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6832060476380781157, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
       propertyPath: m_Name
       value: DialogueCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832060476380781157, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832060476380781158, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832060476380781159, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6832060476380781161, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
       propertyPath: m_Pivot.x
@@ -961,6 +1154,196 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5256048cd62a45745a2536f75a32e3dd, type: 3}
+--- !u!1 &1543006610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543006611}
+  - component: {fileID: 1543006614}
+  - component: {fileID: 1543006613}
+  - component: {fileID: 1543006612}
+  m_Layer: 0
+  m_Name: Netflix Watchers Sign
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543006611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543006610}
+  m_LocalRotation: {x: -0, y: -0.91285884, z: -0, w: 0.4082752}
+  m_LocalPosition: {x: 54.12, y: 3.31, z: 103.22}
+  m_LocalScale: {x: 0.28, y: 1.92, z: 3.78}
+  m_Children: []
+  m_Father: {fileID: 1085335431}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -131.807, z: 0}
+--- !u!65 &1543006612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543006610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1543006613
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543006610}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e4325d2411435cc44a0c0681d5d991f6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1543006614
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543006610}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1560222243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560222244}
+  - component: {fileID: 1560222247}
+  - component: {fileID: 1560222246}
+  - component: {fileID: 1560222245}
+  m_Layer: 0
+  m_Name: League Players Sign (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1560222244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560222243}
+  m_LocalRotation: {x: -0, y: -0.84223074, z: -0, w: 0.53911734}
+  m_LocalPosition: {x: 59.86, y: 3.31, z: 108.35}
+  m_LocalScale: {x: 0.28, y: 1.92, z: 3.78}
+  m_Children: []
+  m_Father: {fileID: 1085335431}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -114.753, z: 0}
+--- !u!65 &1560222245
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560222243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1560222246
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560222243}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c33164d92f793d546a69e5281e5cdca9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1560222247
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560222243}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1654924750
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,9 +1372,244 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2087702185}
+  - {fileID: 750823790}
+  - {fileID: 1750684487}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1703263775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703263776}
+  - component: {fileID: 1703263779}
+  - component: {fileID: 1703263778}
+  - component: {fileID: 1703263777}
+  m_Layer: 0
+  m_Name: League Players Sign
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1703263776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703263775}
+  m_LocalRotation: {x: -0, y: -0.6446765, z: -0, w: 0.7644555}
+  m_LocalPosition: {x: 66.21, y: 3.31, z: 109.02}
+  m_LocalScale: {x: 0.28, y: 1.92, z: 3.78}
+  m_Children: []
+  m_Father: {fileID: 1085335431}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -80.283, z: 0}
+--- !u!65 &1703263777
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703263775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1703263778
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703263775}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9a7cc8836917a1649b4112f40c40c06b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1703263779
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703263775}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1750684486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1750684487}
+  - component: {fileID: 1750684491}
+  - component: {fileID: 1750684490}
+  - component: {fileID: 1750684489}
+  - component: {fileID: 1750684488}
+  m_Layer: 0
+  m_Name: Fortnite Player NPC
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1750684487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750684486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.86, y: 1.26, z: -0.13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1654924751}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1750684488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750684486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c671e82b3cb494d81ca7c104e71b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greeting: Hello!, How may i be of service?
+  faction: Fortnite Players
+  goodbye:
+    topic: See Ya!
+    response: Bye!
+    minIntel: 0
+    minApproval: -1
+    changeApproval: 0
+    nextDialogue: {fileID: 0}
+  DialogueOptions:
+  - topic: Nice outfit, Looking fresh!
+    response: Wow, thanks bro I just got it yesterday
+    minIntel: 0
+    minApproval: -0.078
+    changeApproval: 0.3
+    nextDialogue: {fileID: 0}
+  - topic: Want to go for a walk?
+    response: No thanks i dont really wanna move.
+    minIntel: 0
+    minApproval: -2
+    changeApproval: 0.2
+    nextDialogue: {fileID: 0}
+  - topic: Dont talk to me every again loser
+    response: WOAH, FINE THEN?!
+    minIntel: 0
+    minApproval: -3
+    changeApproval: 0.2
+    nextDialogue: {fileID: 0}
+  firstDialogue: 1
+--- !u!136 &1750684489
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750684486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1750684490
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750684486}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1750684491
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750684486}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1815060883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1772,7 @@ GameObject:
   - component: {fileID: 2087702186}
   - component: {fileID: 2087702189}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: LeaguePlayerNPC
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1249,21 +1867,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12c671e82b3cb494d81ca7c104e71b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greeting: asdsada
+  greeting: Hello!, How may i be of service?
   faction: League Players
   goodbye:
-    topic: sadsa
-    response: sadsas
+    topic: See Ya!
+    response: Bye!
     minIntel: 0
     minApproval: -1
     changeApproval: 0
     nextDialogue: {fileID: 0}
   DialogueOptions:
-  - topic: asdas
-    response: sadsad
+  - topic: Looking Great Today
+    response: Wow! You think so? Thanks!
+    minIntel: 0
+    minApproval: 0.06
+    changeApproval: 0
+    nextDialogue: {fileID: 0}
+  - topic: You Look Fat
+    response: OI BUGGER OFF THEN!
     minIntel: 0
     minApproval: 0
-    changeApproval: 0
+    changeApproval: -10
+    nextDialogue: {fileID: 0}
+  - topic: Can you take me to the king?
+    response: Maybe Gain some more respect and ill considor.
+    minIntel: 0
+    minApproval: 20
+    changeApproval: 5
     nextDialogue: {fileID: 0}
   firstDialogue: 1
 --- !u!1 &2101024697
