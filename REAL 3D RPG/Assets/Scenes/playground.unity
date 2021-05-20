@@ -960,7 +960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
       propertyPath: initialiseFactions.Array.data[1]._approval
-      value: 0.929
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7456477685299308531, guid: 860f42400835d02429b7ea13a9225b11, type: 3}
       propertyPath: initialiseFactions.Array.data[2]._approval
