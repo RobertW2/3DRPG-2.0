@@ -136,5 +136,7 @@ namespace InventorySystem
         {
 
         }
+
+        public virtual void OnClicked() => Debug.Log($"Item passed was : {name}!");
     }
 }

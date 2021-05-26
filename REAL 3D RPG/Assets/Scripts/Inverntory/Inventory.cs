@@ -20,6 +20,17 @@ namespace InventorySystem
         #endregion
 
 
+        public void AddItem(Item _item)
+        {
+            inventory.Add(_item);
+        }
+
+        public void RemoveItem(Item _item)
+        {
+            if (inventory.Contains(_item))
+                inventory.Remove(_item);
+        }
+
         private void Update()
         {
             if(Input.GetKeyDown(KeyCode.I))
@@ -58,6 +69,7 @@ namespace InventorySystem
                     if(GUI.Button(new Rect(30, 0 + (count * 30), 200, 30), inventory[i].Name))
                     {
                         selectedItem = inventory[i];
+                        selectedItem.OnClicked();
                     }
                     count++;
                 }
