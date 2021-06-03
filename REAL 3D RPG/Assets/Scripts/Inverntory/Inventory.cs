@@ -43,7 +43,7 @@ namespace InventorySystem
                 foundItem.Amount += count;
             }
 
-            inventory.Add(_item);
+            //inventory.Add(_item);
         }
 
         public void RemoveItem(Item _item)
@@ -94,11 +94,22 @@ namespace InventorySystem
         {
             selectedItem = item;
 
-            itemImage.texture = selectedItem.Icon;
-            itemName.text = selectedItem.Name;
-            itemDescription.text = selectedItem.Description +
-                "\nValue: " + selectedItem.Value +
-                "\nAmount: " + selectedItem.Amount;
+            if(item == null)
+            {
+                itemImage.texture = null;
+                itemName.text = "";
+                itemDescription.text = "";
+            }
+            else
+            {
+                itemImage.texture = selectedItem.Icon;
+                itemName.text = selectedItem.Name;
+                itemDescription.text = selectedItem.Description +
+                    "\nValue: " + selectedItem.Value +
+                    "\nAmount: " + selectedItem.Amount;
+            }
+
+
         }
 
         private void Display()

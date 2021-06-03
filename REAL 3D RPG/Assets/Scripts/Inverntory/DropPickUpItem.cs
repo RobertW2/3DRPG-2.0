@@ -14,7 +14,7 @@ namespace InventorySystem
         {
             if(Input.GetKeyDown(KeyCode.F))
             {
-                Ray ray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+                    Ray ray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
                 RaycastHit hitInfo;
 
                 if(Physics.Raycast(ray, out hitInfo, 50f))

@@ -59,7 +59,7 @@ namespace InventorySystem
         public int Amount
         {
             get { return amount; }
-            set { Amount = value; }
+            set { amount = value; }
         }
 
         public Texture2D Icon
