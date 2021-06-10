@@ -28,9 +28,16 @@ namespace InventorySystem
         public delegate void ItemsEquiped(EquipmentSlot item); // change to equpment slot
         public event ItemsEquiped itemEquiped;
     }
+/*
+    void EquipItem ()
+    {
+        equipment.primary.EquipedItem = selectedItem;
+    }
+*/
+    //Equipment equipment = GetComponent<Equipment>();
+   // equipment.primary.EquipedItem = itemIWantToEquip;
 
-    //equipment equipment = GetComponent<>
-        // equipment.primary.EquipedItem = itemIWantToEquip;
+
 
     public class Equipment : MonoBehaviour
     {
