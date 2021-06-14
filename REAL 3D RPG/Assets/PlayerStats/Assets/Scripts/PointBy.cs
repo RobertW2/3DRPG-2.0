@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class PointBy : MonoBehaviour
@@ -164,6 +165,7 @@ public class PointBy : MonoBehaviour
 
     public void ConfirmStats(PlayerMovement player)
     {
+        player.CreatingCharacter = false;
 
 
         for (int i = 0; i < stat1; i++)
@@ -203,5 +205,10 @@ public class PointBy : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ConfirmButtonNext()
+    {
+        SceneManager.LoadScene("playground");
     }
 }

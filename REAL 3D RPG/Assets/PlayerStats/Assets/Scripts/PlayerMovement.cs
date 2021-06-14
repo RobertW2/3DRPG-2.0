@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
     public Image StaminaBar;
-    private Rigidbody rb;
-    private Vector3 move;
+    private Rigidbody2D rb;
+    private float move;
 
     [SerializeField] private float moveSpeed = 10;         // Var 1
     [SerializeField] private float jumpHeight = 5;         // Var 2
@@ -19,16 +19,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jetpackForce = 5;       // Var 5
 
 
-    [SerializeField] private GameObject flame;
+
 
 
     [SerializeField] private float maxStamina = 10;        // Vr 6
     [SerializeField] private float currentStamina = 10;
 
-    private float hori, verti;
-    private float mouseX;
-
-  //  public bool CreatingCharacter = true;
+    public bool CreatingCharacter = true;
 
 
 
@@ -36,43 +33,29 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        flame.SetActive(false);
+        rb = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        //  if (CreatingCharacter)
-        //     return;
-
+        if (CreatingCharacter)
+            return;
 
 
 
 
         // Sprint and Stamina
 
-
-        hori = Input.GetAxisRaw("Horizontal");
-        verti = Input.GetAxisRaw("Vertical");
-
-        mouseX = Input.GetAxisRaw("Mouse X");
-
-        transform.Rotate(-Vector3.up * mouseX);
-
-        //   move = new Vector3 (hori * moveSpeed,0, verti * moveSpeed);
-        move = (transform.right * hori + transform.forward * verti) * moveSpeed;
-
-
-
-
-
+         
+        move = Input.GetAxisRaw("Horizontal") * moveSpeed;
 
         if (Input.GetKey(KeyCode.LeftShift) && currentStamina > 0)
         {
             move = move * sprintMulti;
-            if(move.magnitude >= 0)
+            if(move != 0)
                 currentStamina -= 2 * Time.deltaTime;
         }
 
@@ -80,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         {
             currentStamina += 1 * Time.deltaTime;
         }
-      //  StaminaBar.fillAmount = currentStamina / maxStamina;
+        StaminaBar.fillAmount = currentStamina / maxStamina;
 
 
 
@@ -92,20 +75,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
-            rb.velocity += Vector3.up * jumpHeight;
+            rb.velocity += Vector2.up * jumpHeight;
         }
-        else if (Input.GetButton("Jump") && !grounded == false)
+        else if (Input.GetButton("Jump") && grounded == false)
         {
             if (currentFuel > 0)
             {
-                flame.SetActive(true);
-                rb.velocity += Vector3.up * jetpackForce * Time.deltaTime;
+                rb.velocity += Vector2.up * jetpackForce * Time.deltaTime;
                 currentFuel -= Time.deltaTime;
             }
         }
         else if (Input.GetButtonUp("Jump"))
         {
-            flame.SetActive(false);
+
         }
 
 
@@ -116,12 +98,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        move.y = rb.velocity.y;
-        rb.velocity = move;
+        rb.velocity = new Vector2(move, rb.velocity.y); 
     }
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.tag == "Ground")
@@ -131,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2(Collision collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         grounded = false;
     }
