@@ -7,9 +7,12 @@ namespace Serialization
     [System.Serializable]
     public class GameData
     {
+
+
+/*
         // Vector3's can't be serialized by C#, so we made a float array
         // and a property insted.
-        public Vector3 Position => new Vector3(position[0], position[1], position[2]);
+      //  public Vector3 Position => new Vector3(position[0], position[1], position[2]);
 
         public Charater knight;
         public Charater wizard;
@@ -26,6 +29,7 @@ namespace Serialization
             // Sets everything to each other in the order right to left.
             position[0] = position[1] = position[2] = 0;
         }
+*/
 
 
     }

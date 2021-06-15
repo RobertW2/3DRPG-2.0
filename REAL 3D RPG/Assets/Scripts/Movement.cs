@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
     private float _gravity = 20.0f;
     private Vector3 _moveDir;
     public CharacterController _charC;
+
+
     
     private object Transform;
 
