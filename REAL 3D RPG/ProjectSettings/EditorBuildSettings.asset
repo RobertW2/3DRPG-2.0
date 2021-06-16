@@ -6,9 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PlayerStats/Assets/Scenes/SampleScene.unity
+    path: Assets/Menus/Scenes/PressAnyKey.unity
+    guid: ecc3d97159b757b4284ba6f998f022ea
+  - enabled: 1
+    path: Assets/Menus/Scenes/MainMenuScene.unity
+    guid: 07a547c6147f81246b588787e2088659
+  - enabled: 1
+    path: Assets/Menus/Scenes/StartGame.unity
+    guid: f59b076b4d784734abc5c4244d76f837
+  - enabled: 1
+    path: Assets/Scenes/PlayerStats/Assets/Scenes/StatSelector.unity
     guid: 700cd229e8067f049b392b729a452685
   - enabled: 1
     path: Assets/Scenes/playground.unity
     guid: 8a4ef802a641e574cb6924d02e959a1a
+  - enabled: 1
+    path: Assets/Menus/Scenes/Audio.unity
+    guid: ac055e16ac42ce749b1153094ccbec22
+  - enabled: 1
+    path: Assets/Menus/Scenes/GraphicsSettings.unity
+    guid: 86afbd477c2665f4db3fc9e3d3128ac1
+  - enabled: 1
+    path: Assets/Menus/Scenes/Options.unity
+    guid: 9e218459942d7d242922b50bd931e2a7
+  - enabled: 1
+    path: Assets/Menus/KeyBinds/KeyBinding.unity
+    guid: dc24d3423aa432b4fb643824e30797fc
   m_configObjects: {}
