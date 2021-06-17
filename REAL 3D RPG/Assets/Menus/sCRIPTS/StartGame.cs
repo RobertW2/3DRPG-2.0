@@ -39,4 +39,20 @@ public class StartGame : MonoBehaviour
     {
         SceneManager.LoadScene("KeyBinding");
     }
+
+    public static void Quit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif UNITY_WEBPLAYER
+         Application.OpenURL(webplayerQuitURL);
+#else
+         Application.Quit();
+#endif
+    }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene("playground");
+    }
 }

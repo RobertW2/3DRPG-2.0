@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthBarAndLoseHP : MonoBehaviour
 {
@@ -20,29 +21,43 @@ public class HealthBarAndLoseHP : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    private void Update()
+    public void Update()
     {
 
+    }
 
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            TakeDamage(20);
-        }
+    public void HealthReset()
+    {
+        currentHealth = maxHealth;
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        TakeDamage(20);
+        TakeDamage(100);
     }
 
 
 
 
-    void TakeDamage(int damage)
+
+
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
     }
+
+    public void Death()
+    {
+        if(health <= 0)
+        {
+            SceneManager.LoadScene("DeathScene");
+        }
+    }
+
+
+
+
+
 }
