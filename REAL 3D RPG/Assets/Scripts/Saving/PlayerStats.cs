@@ -8,6 +8,7 @@ public class PlayerStats : MonoBehaviour
 {
     public PlayerQuest PlayerQuest;
 
+    public Transform playersTransform;
     
 
     public int level = 3;
@@ -57,7 +58,7 @@ public class PlayerStats : MonoBehaviour
     /// </summary>
     public void SavePlayer()
     {
-        SaveSystem.SavePlayer(this);
+        SaveSystem.SavePlayer(playersTransform, this);
     }
 
     public void LoadPlayer()
@@ -75,6 +76,8 @@ public class PlayerStats : MonoBehaviour
         position.x = data.position[0];
         position.y = data.position[1];
         position.z = data.position[2];
-        transform.position = position;
+        playersTransform.GetComponent<CharacterController>().enabled = false;
+        playersTransform.transform.position = position;
+        playersTransform.GetComponent<CharacterController>().enabled = true;
     }
 }

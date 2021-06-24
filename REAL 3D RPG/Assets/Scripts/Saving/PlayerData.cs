@@ -11,14 +11,14 @@ public class PlayerData
     public float[] position;
 
 
-    public PlayerData(PlayerStats player)
+    public PlayerData(Transform playerTransform, PlayerStats player)
     {
         level = player.level;
         health = player.health;
 
         position = new float[3];
-        position[0] = player.transform.position.x;
-        position[0] = player.transform.position.y;
-        position[0] = player.transform.position.z;
+        position[0] = playerTransform.transform.position.x;
+        position[1] = playerTransform.transform.position.y;
+        position[2] = playerTransform.transform.position.z;
     }
 }
