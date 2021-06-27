@@ -6,12 +6,14 @@ public class RaceSwap : MonoBehaviour
 {
     public GameObject newRaceOn;
     public GameObject oldRaceOff;
+    public GameObject elfRaceoff;
 
     public void clicky()
     {
         newRaceOn.SetActive(true);
 
-       // oldRaceOff.SetActive(false);
+       oldRaceOff.SetActive(false);
+        elfRaceoff.SetActive(false);
 
         
     }

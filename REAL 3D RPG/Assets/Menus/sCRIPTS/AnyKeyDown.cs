@@ -11,7 +11,7 @@ public class AnyKeyDown : MonoBehaviour
     {
         if (Input.anyKey)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("MainMenuScene");
         }
     }
 }
