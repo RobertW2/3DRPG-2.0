@@ -1,0 +1,780 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/GitHub/3DRPG-2.0/REAL 3D RPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61719
+Successfully changed project path to: F:/GitHub/3DRPG-2.0/REAL 3D RPG
+F:/GitHub/3DRPG-2.0/REAL 3D RPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GitHub/3DRPG-2.0/REAL 3D RPG/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002921 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1217 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 1.945200 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.587600 ms  DeleteObjects: 0.133500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art/cursor.png
+  artifactKey: Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/cursor.png using Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932f9bb99cfc6ad551d4885f960476b2') in 0.116124 seconds
+  Import took 0.118591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.463152 seconds.
+  path: Assets/Warrior Babe/Character/Clothes_9.png
+  artifactKey: Guid(f3b48e86a051053488fa3e6f74132fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/Character/Clothes_9.png using Guid(f3b48e86a051053488fa3e6f74132fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9124a6b984ab47677dd73263c32795') in 0.093798 seconds
+  Import took 0.119797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Warrior Babe/Character/Clothes_10.png
+  artifactKey: Guid(d314386374ae4a74a8da50e0288363bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/Character/Clothes_10.png using Guid(d314386374ae4a74a8da50e0288363bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b37501e4be02acdd5965a32d732d668') in 0.069451 seconds
+  Import took 0.079241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915bcddea722101856bc0abc42c90de5') in 0.057156 seconds
+  Import took 0.069930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Warrior Babe/Character/Clothes_10.png
+  artifactKey: Guid(d314386374ae4a74a8da50e0288363bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/Character/Clothes_10.png using Guid(d314386374ae4a74a8da50e0288363bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b37501e4be02acdd5965a32d732d668') in 0.011420 seconds
+  Import took 0.013930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c26d0c4e46e42672e54ffe1f174d34c') in 0.045234 seconds
+  Import took 0.047803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2fd461485e4535ca3cd617363dc41e') in 0.023179 seconds
+  Import took 0.042456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Warrior Babe/Character/Clothes_9.png
+  artifactKey: Guid(f3b48e86a051053488fa3e6f74132fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior Babe/Character/Clothes_9.png using Guid(f3b48e86a051053488fa3e6f74132fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9124a6b984ab47677dd73263c32795') in 0.010493 seconds
+  Import took 0.013097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scripts/PauseMenu/PauseMenuScripts/Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(3f4865c4ffdd70646b2e13a4a9da4349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PauseMenu/PauseMenuScripts/Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(3f4865c4ffdd70646b2e13a4a9da4349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed023093204651217ec05272213915c2') in 0.032850 seconds
+  Import took 0.035353 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 1.732300 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.496600 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.487201 seconds.
+  path: Assets/Art/cursor.png
+  artifactKey: Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/cursor.png using Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eab4b5c279e5be032557133c2c4b050') in 0.048663 seconds
+  Import took 0.051009 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 1.898200 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.667800 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.474020 seconds.
+  path: Assets/Art/cursor.png
+  artifactKey: Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/cursor.png using Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b23a138b5ce30aa8e47faaa3153652') in 0.040149 seconds
+  Import took 0.042804 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1688.
+Total: 1.838400 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.615700 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.910681 seconds.
+  path: Assets/Art/cursor.png
+  artifactKey: Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/cursor.png using Guid(b91811441e74ba9418804ba08280515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a80a4e1088570173ba25cd351a89c13') in 0.042292 seconds
+  Import took 0.049808 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 2.312900 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.063600 ms MarkObjects: 1.922400 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.510105 seconds.
+  path: Assets/Pixel Cursors
+  artifactKey: Guid(44c994bc1984ea9439228de3a2c4bc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors using Guid(44c994bc1984ea9439228de3a2c4bc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dceb0a1083c984d21cb4d0bfd2d2dd') in 0.011413 seconds
+  Import took 0.013819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055179 seconds.
+  path: Assets/Pixel Cursors/Cursors
+  artifactKey: Guid(ecc8e56904a81c242bde988967825a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors using Guid(ecc8e56904a81c242bde988967825a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac0a27083860faf4f141f12f9cf42af') in 0.008531 seconds
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055601 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01 BLUE.png
+  artifactKey: Guid(44a99ee545fd8ba46a452b12c1f9378b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01 BLUE.png using Guid(44a99ee545fd8ba46a452b12c1f9378b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96675c58f739f481af1a30712a2ee3fa') in 0.085992 seconds
+  Import took 0.088828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_50.png
+  artifactKey: Guid(fe2443101ded6f544b32f8dc8690c367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_50.png using Guid(fe2443101ded6f544b32f8dc8690c367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714ef9fffe077ad021b812f70c36e93e') in 0.021924 seconds
+  Import took 0.024264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_42.png
+  artifactKey: Guid(8ef7b760a0ec74c40a35969369427cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_42.png using Guid(8ef7b760a0ec74c40a35969369427cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d5a3e7d2b804deecd0324885f52336') in 0.022403 seconds
+  Import took 0.025018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_12.png
+  artifactKey: Guid(86d67df840a2fea4885e6d8c9b7b6e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_12.png using Guid(86d67df840a2fea4885e6d8c9b7b6e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af58cbc47fa91d14ee42b131c1e2315') in 0.021101 seconds
+  Import took 0.023616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_06.png
+  artifactKey: Guid(a4d35a1210326f64fa2339d2ae104afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_06.png using Guid(a4d35a1210326f64fa2339d2ae104afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cabf51df17a5bc6050785efb117750') in 0.022698 seconds
+  Import took 0.025338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_26.png
+  artifactKey: Guid(99b4ff6ea44bbe24691a30e9fcef0693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_26.png using Guid(99b4ff6ea44bbe24691a30e9fcef0693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804d0cd3229f62cc9103b939aa13c647') in 0.031090 seconds
+  Import took 0.048958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_46.png
+  artifactKey: Guid(e4fac5245b727db42ba0ca0258851b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_46.png using Guid(e4fac5245b727db42ba0ca0258851b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88ee9877811950af1ce546b3639b122') in 0.016152 seconds
+  Import took 0.024659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_13.png
+  artifactKey: Guid(a368e02a212c61c4b8b3db8078d7bb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_13.png using Guid(a368e02a212c61c4b8b3db8078d7bb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2743d75aba985957d968220e0df258a2') in 0.019736 seconds
+  Import took 0.022574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_23.png
+  artifactKey: Guid(682ecf9336b03ba4bb7f247b4d891511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_23.png using Guid(682ecf9336b03ba4bb7f247b4d891511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08a38b07f356be43800c86e0f00826c') in 0.018705 seconds
+  Import took 0.021333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_34.png
+  artifactKey: Guid(39c4abc600fd1604981e476942426394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_34.png using Guid(39c4abc600fd1604981e476942426394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab79719ffb9131d6a04176ee0a0c6dff') in 0.025741 seconds
+  Import took 0.056486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01 RED.png
+  artifactKey: Guid(2a2b4775272c890448e1bd6239fdfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01 RED.png using Guid(2a2b4775272c890448e1bd6239fdfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b71705c3873018be5dcebf9723ca236') in 0.014752 seconds
+  Import took 0.020623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_21.png
+  artifactKey: Guid(b7bcd258bb3a6ce43bc22b6c569d2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_21.png using Guid(b7bcd258bb3a6ce43bc22b6c569d2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35179fba7fc5499d990419d3468db2a4') in 0.018905 seconds
+  Import took 0.021466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_39.png
+  artifactKey: Guid(d1e966bd99fcdf34abe61948d3290e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_39.png using Guid(d1e966bd99fcdf34abe61948d3290e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e740769d68f11c7d65e84b97abec58') in 0.017614 seconds
+  Import took 0.019729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_04.png
+  artifactKey: Guid(5235a45d7adbb4346a2152298d55bff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_04.png using Guid(5235a45d7adbb4346a2152298d55bff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2e7f6d0e042406326e784baf2bea31') in 0.016122 seconds
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_15.png
+  artifactKey: Guid(2d18e23e3ce249b4489b8bcdd02d3f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_15.png using Guid(2d18e23e3ce249b4489b8bcdd02d3f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c094e1e39997b8d25204a0f51145d0') in 0.030382 seconds
+  Import took 0.032451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_22.png
+  artifactKey: Guid(da684d26f38d13c4e96887188e7be456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_22.png using Guid(da684d26f38d13c4e96887188e7be456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d7377dc5c0e768dad1ddf9b4b1eabc') in 0.019571 seconds
+  Import took 0.022115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_29.png
+  artifactKey: Guid(7c487959e49b9e447a29431caf3fdc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_29.png using Guid(7c487959e49b9e447a29431caf3fdc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336545d97a0fdcfce2d09ea7815cf9e9') in 0.018005 seconds
+  Import took 0.020514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_38.png
+  artifactKey: Guid(7d4a349e204be984cbd483b7ba288543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_38.png using Guid(7d4a349e204be984cbd483b7ba288543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83b7396146e1672d8196c47651d3184') in 0.018649 seconds
+  Import took 0.031300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01 YELLOW.png
+  artifactKey: Guid(6fdfcd4167ed5e7488584241bb671bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01 YELLOW.png using Guid(6fdfcd4167ed5e7488584241bb671bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e524acc767a481d1d192f6a230ed80e0') in 0.014304 seconds
+  Import took 0.016733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_19.png
+  artifactKey: Guid(d65d95ca16518034fa82669a92d0b6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_19.png using Guid(d65d95ca16518034fa82669a92d0b6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c55609ff3ec2d2ada366f75a53534a6') in 0.016123 seconds
+  Import took 0.032930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_41.png
+  artifactKey: Guid(f8c873f1e53e83f4aabf342d6be1dfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_41.png using Guid(f8c873f1e53e83f4aabf342d6be1dfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b4742c506fa2e50be4b7f7f169f36') in 0.023147 seconds
+  Import took 0.026385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_10.png
+  artifactKey: Guid(e9cbbd7f4b159c44ba7918ed31612df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_10.png using Guid(e9cbbd7f4b159c44ba7918ed31612df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d874626cef39d13ace2d0fc6110496') in 0.020826 seconds
+  Import took 0.023279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_25.png
+  artifactKey: Guid(13b47201502803547bf2c87d10639cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_25.png using Guid(13b47201502803547bf2c87d10639cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824a2024a5edd2ccf18df87fbba9cec2') in 0.016218 seconds
+  Import took 0.018408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_43.png
+  artifactKey: Guid(a75c68d8f8b30c24788e1ae1ea050ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_43.png using Guid(a75c68d8f8b30c24788e1ae1ea050ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8930f8ebbc4adfb90212445724f584') in 0.016876 seconds
+  Import took 0.019009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_30.png
+  artifactKey: Guid(4766716444a965b449ef86e524455e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_30.png using Guid(4766716444a965b449ef86e524455e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc85794676f555720c8ae789d8aaaee3') in 0.016722 seconds
+  Import took 0.019215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_07.png
+  artifactKey: Guid(bd3559211c3a4f64dbdff8af508d1995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_07.png using Guid(bd3559211c3a4f64dbdff8af508d1995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e780d642531f15369afcf8a6d4c37') in 0.021681 seconds
+  Import took 0.024062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_44.png
+  artifactKey: Guid(21628736160fcc9488493401da3ef621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_44.png using Guid(21628736160fcc9488493401da3ef621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96666ac2079ad3ecafd478b9ccd2a112') in 0.020157 seconds
+  Import took 0.022755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_14.png
+  artifactKey: Guid(16eb76a57807650498cf0873147418fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_14.png using Guid(16eb76a57807650498cf0873147418fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aae56c8a906b187e50b56674e0d8250') in 0.015522 seconds
+  Import took 0.017995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01 PURPLE.png
+  artifactKey: Guid(b017dfab3916c1342b99c499d7ab500b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01 PURPLE.png using Guid(b017dfab3916c1342b99c499d7ab500b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ca8a0c443a678f55bd8892ed57249d') in 0.016560 seconds
+  Import took 0.019036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_17.png
+  artifactKey: Guid(fee23eb8e5d9ba84ab01910b874b4b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_17.png using Guid(fee23eb8e5d9ba84ab01910b874b4b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a98348316eafec8b501b3e4e130373') in 0.015536 seconds
+  Import took 0.017696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_27.png
+  artifactKey: Guid(f1139c6b43e054f46abe94de0f4aee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_27.png using Guid(f1139c6b43e054f46abe94de0f4aee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202664e6313d3524b75fb1d909a86284') in 0.013679 seconds
+  Import took 0.028395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_45.png
+  artifactKey: Guid(96d4bfdb0d6d8c042bf8fccf6524d239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_45.png using Guid(96d4bfdb0d6d8c042bf8fccf6524d239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf8350d5d295120007380220d1b1de3') in 0.015046 seconds
+  Import took 0.018425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_47.png
+  artifactKey: Guid(8859fce41c5d0a148ad0b7eebfca7fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_47.png using Guid(8859fce41c5d0a148ad0b7eebfca7fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9292158108d29b26fe9163716c1797e1') in 0.015423 seconds
+  Import took 0.017824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_31.png
+  artifactKey: Guid(7f6c6fdab50f1054c9820b737360db07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_31.png using Guid(7f6c6fdab50f1054c9820b737360db07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3703b5585f521c02ab8cec63631b5f29') in 0.014637 seconds
+  Import took 0.017022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_35.png
+  artifactKey: Guid(9ee5febc9c797aa45a8619f4542d6eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_35.png using Guid(9ee5febc9c797aa45a8619f4542d6eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f7479eedac784b5b6fe1f164e49f6c') in 0.014738 seconds
+  Import took 0.017508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01.png
+  artifactKey: Guid(2e71a8202d3b4a3448ec85ced5a40265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01.png using Guid(2e71a8202d3b4a3448ec85ced5a40265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2dab4b6516f12871dd1d121e849889') in 0.015486 seconds
+  Import took 0.017820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_16.png
+  artifactKey: Guid(45d8aea3ad483cf4fb21e75f90f795d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_16.png using Guid(45d8aea3ad483cf4fb21e75f90f795d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71f661cc6a06f3ddce5ddaad52d92be') in 0.015338 seconds
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_08.png
+  artifactKey: Guid(1051f212ef1e8ef4b9af98a1c1a76492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_08.png using Guid(1051f212ef1e8ef4b9af98a1c1a76492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a5cbd9b9ae9892ebe1813801006c13') in 0.015340 seconds
+  Import took 0.017588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_33.png
+  artifactKey: Guid(2d275651a7c7744468bd20d1d6924a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_33.png using Guid(2d275651a7c7744468bd20d1d6924a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58712dbc817fba1f733046b78650dcaa') in 0.014901 seconds
+  Import took 0.017045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_24.png
+  artifactKey: Guid(4c1d62d9215a73a4b933db561be30e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_24.png using Guid(4c1d62d9215a73a4b933db561be30e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d298f02f2a72ee75d1ccf268e55f7e4') in 0.014316 seconds
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_32.png
+  artifactKey: Guid(2b561569485d156429a42f8b103c2037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_32.png using Guid(2b561569485d156429a42f8b103c2037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6225f81c146447e890710f37c0512b9') in 0.012389 seconds
+  Import took 0.014698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_49.png
+  artifactKey: Guid(cecad95c851b97f40b105b30b0bfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_49.png using Guid(cecad95c851b97f40b105b30b0bfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3c3576dd1fdaef30267863068d7904') in 0.039980 seconds
+  Import took 0.042311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_20.png
+  artifactKey: Guid(89f40d0702ab04b4eaa85fc24b20959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_20.png using Guid(89f40d0702ab04b4eaa85fc24b20959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6d7078b62a74e89017c5b9f12b93ab') in 0.015492 seconds
+  Import took 0.018138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_36.png
+  artifactKey: Guid(a895910e9f6e6844b889cbe885aadd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_36.png using Guid(a895910e9f6e6844b889cbe885aadd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4116c5516aa66fef2e04864f43056d') in 0.017878 seconds
+  Import took 0.020325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_05.png
+  artifactKey: Guid(3451779baa5804d40bf1e952eb56a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_05.png using Guid(3451779baa5804d40bf1e952eb56a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d6f61cdd8d46734a93a50c154e5eeb') in 0.014580 seconds
+  Import took 0.017534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_11.png
+  artifactKey: Guid(1404db4e34954e44aae5a8befd19ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_11.png using Guid(1404db4e34954e44aae5a8befd19ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8273cbf32ee1ba881aabdf3bf3a5a18e') in 0.016606 seconds
+  Import took 0.018878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_18.png
+  artifactKey: Guid(ce721f19cdaf0c94aa847c79afb72708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_18.png using Guid(ce721f19cdaf0c94aa847c79afb72708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca73497bd182a9c02b17f26c8641c57f') in 0.014626 seconds
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_48.png
+  artifactKey: Guid(1e1ecf843f705b34ab304dff88b037c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_48.png using Guid(1e1ecf843f705b34ab304dff88b037c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129481b406bc087219b3bb64b22d6fb9') in 0.015637 seconds
+  Import took 0.017773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_40.png
+  artifactKey: Guid(71c06df75eee7124f8ab8e39ce242adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_40.png using Guid(71c06df75eee7124f8ab8e39ce242adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cda008b8d40c713b98ba752c5e16c3') in 0.014829 seconds
+  Import took 0.017592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01 GREEN.png
+  artifactKey: Guid(8ea795c067613354898068091ffc7130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01 GREEN.png using Guid(8ea795c067613354898068091ffc7130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292960cc8b0515f6e368eae717b5079e') in 0.023668 seconds
+  Import took 0.026062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_28.png
+  artifactKey: Guid(a2e17fe4fd24da348aa43901f817958f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_28.png using Guid(a2e17fe4fd24da348aa43901f817958f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d24160e2d3d69d4053679a91bfdc2e') in 0.014433 seconds
+  Import took 0.016772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_37.png
+  artifactKey: Guid(68ac2028e997ffa488c976b2736e2da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_37.png using Guid(68ac2028e997ffa488c976b2736e2da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd359e629604cbacf94d93756ba2daf7') in 0.015513 seconds
+  Import took 0.017883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_01.png
+  artifactKey: Guid(b23a0084fea403945a302e12cc707439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_01.png using Guid(b23a0084fea403945a302e12cc707439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2f22d1e2a52f848c4272b072d2f218') in 0.014774 seconds
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_03.png
+  artifactKey: Guid(f2e59480af813ad42af2eba175095158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_03.png using Guid(f2e59480af813ad42af2eba175095158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2dec0d723abae556f886d8dab9b61b') in 0.015237 seconds
+  Import took 0.018167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_09.png
+  artifactKey: Guid(aabf699d32f0ce349920801e3ef898f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_09.png using Guid(aabf699d32f0ce349920801e3ef898f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6c5a5bc75a6006d000a952858556e3') in 0.015124 seconds
+  Import took 0.017408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Pixel Cursors/Cursors/Bonus_02.png
+  artifactKey: Guid(0230513a91d07d949958e664ab2a6cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/Bonus_02.png using Guid(0230513a91d07d949958e664ab2a6cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8325315141959973917f82bfc27f18') in 0.016687 seconds
+  Import took 0.020042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 2.183200 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.944100 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.569940 seconds.
+  path: Assets/Pixel Cursors/Cursors/basic_01 BLUE.png
+  artifactKey: Guid(44a99ee545fd8ba46a452b12c1f9378b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Cursors/Cursors/basic_01 BLUE.png using Guid(44a99ee545fd8ba46a452b12c1f9378b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c10df6ae4294ddce19fbe212c630035') in 0.043135 seconds
+  Import took 0.046417 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 2.110800 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.788800 ms  DeleteObjects: 0.021800 ms)
+
