@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 6f5fb18faa8d5824ea1b5dd3766271a7
+  - enabled: 1
     path: Assets/Menus/Scenes/PressAnyKey.unity
     guid: ecc3d97159b757b4284ba6f998f022ea
   - enabled: 1
