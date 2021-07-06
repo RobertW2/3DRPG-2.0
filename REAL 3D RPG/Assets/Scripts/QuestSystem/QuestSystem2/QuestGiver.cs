@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using InventorySystem;
 
-
-
-    public class QuestGiver : MonoBehaviour
+public class QuestGiver : MonoBehaviour
     {
-      //  public Quest quest;
-
+    //  public Quest quest;
+        public PlayerQuest activeQuest;
         public GameObject player;
 
         public GameObject questWindow;
@@ -27,9 +26,27 @@ using TMPro;
 
     public void OpenQuestWindow()
         {
+        Debug.Log(FindObjectOfType<Inventory>().HasItem("Quest Item"));
+
+
+        if (activeQuest.hasAcceptedQuest == false)
+        {
+            questWindow.SetActive(true);
+        }
+        else if (FindObjectOfType<Inventory>().HasItem("Quest Item"))
+            {
+                // Show completed quest window.
+            }
+            else
+            {
+                // reset quest
+
+                // thank you note
+            }
+
 
         // Sets Quest Book to open
-            questWindow.SetActive(true);
+            
 
         // Sets the text to update to what string is written on inspector
             titleText.text = title;

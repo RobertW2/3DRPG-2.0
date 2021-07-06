@@ -507,7 +507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11414902, guid: 97bad3d27bd292c4aac284388b06eba9, type: 3}
       propertyPath: keyAction
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11414902, guid: 97bad3d27bd292c4aac284388b06eba9, type: 3}
       propertyPath: toggleColor.a
@@ -1151,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11414902, guid: 97bad3d27bd292c4aac284388b06eba9, type: 3}
       propertyPath: keyAction
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11414902, guid: 97bad3d27bd292c4aac284388b06eba9, type: 3}
       propertyPath: toggleColor.a

@@ -13,13 +13,23 @@ public class Movement : MonoBehaviour
     private Vector3 _moveDir;
     public CharacterController _charC;
 
+    public KeyCode upKeyCode;
+    public KeyCode downKeyCode;
+    public KeyCode leftKeyCode;
+    public KeyCode rightKeyCode;
 
-    
     private object Transform;
 
     private void Start()
     {
         _charC = GetComponent<CharacterController>();
+
+        upKeyCode = (KeyCode)PlayerPrefs.GetInt(KeyAction.up.ToString());
+        downKeyCode = (KeyCode)PlayerPrefs.GetInt(KeyAction.down.ToString());
+        leftKeyCode = (KeyCode)PlayerPrefs.GetInt(KeyAction.left.ToString());
+        rightKeyCode = (KeyCode)PlayerPrefs.GetInt(KeyAction.right.ToString());
+
+
     }
     private void Update()
     {
@@ -42,7 +52,32 @@ public class Movement : MonoBehaviour
             {
                 moveSpeed = walkSpeed;
             }
-            _moveDir = transform.TransformDirection(new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * moveSpeed);
+
+            float horizontalSpeed = 0;
+            float verticalSpeed = 0;
+
+            if(Input.GetKey(upKeyCode))
+            {
+                horizontalSpeed = 1;
+            }
+
+            if (Input.GetKey(downKeyCode))
+            {
+                horizontalSpeed = -1;
+            }
+
+            if (Input.GetKey(rightKeyCode))
+            {
+                verticalSpeed = 1;
+            }
+
+            if (Input.GetKey(leftKeyCode))
+            {
+                verticalSpeed = -1;
+            }
+
+
+            _moveDir = transform.TransformDirection(new Vector3(verticalSpeed, 0, horizontalSpeed ) * moveSpeed);
             if (Input.GetButton("Jump"))
             {
                 _moveDir.y = jumpSpeed;

@@ -24,6 +24,21 @@ namespace InventorySystem
         [SerializeField] private Text itemDescription;
         #endregion
 
+
+        public bool HasItem(string itemName)
+        {
+            foreach (Item item in inventory)
+            {
+                if(item.Name == itemName)
+                {
+                    return true;
+                }
+            }
+            return false;
+
+        }
+
+
         public void AddItem(Item _item)
         {
             AddItem(_item, _item.Amount);

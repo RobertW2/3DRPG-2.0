@@ -147,6 +147,9 @@ public class KeyBinding : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 		keyDisplay.text = keyCode.ToString();
 		PlayerPrefs.SetInt(keyAction.ToString(),(int)keyCode);
 		PlayerPrefs.Save();
+
+
+		Debug.Log("Saved Binding " + keyCode.ToString() + " " + keyAction.ToString());
 	}
 
 	//Prevents user from remapping two keys at the same time
