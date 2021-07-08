@@ -12,8 +12,15 @@ public class QuestGiver : MonoBehaviour
         public GameObject player;
 
         public GameObject questWindow;
-        public TextMeshProUGUI titleText;
+    public GameObject QuestNotFinishedWindow;
+    public GameObject QuestCompleted;
+
+
+    public TextMeshProUGUI titleText;
         public TextMeshProUGUI descriptionText;
+
+    public TextMeshProUGUI goldText;
+    public TextMeshProUGUI experienceText;
 
     public bool isActive;
 
@@ -33,15 +40,17 @@ public class QuestGiver : MonoBehaviour
         {
             questWindow.SetActive(true);
         }
+
         else if (FindObjectOfType<Inventory>().HasItem("Quest Item"))
-            {
-                // Show completed quest window.
-            }
+        {
+            QuestCompleted.SetActive(true);
+
+            activeQuest.hasCompletedQuest = true;
+
+        }
             else
             {
-                // reset quest
-
-                // thank you note
+                QuestNotFinishedWindow.SetActive(true);
             }
 
 
@@ -51,10 +60,11 @@ public class QuestGiver : MonoBehaviour
         // Sets the text to update to what string is written on inspector
             titleText.text = title;
             descriptionText.text = description;
-          //  experienceText.text = quest.experienceReward.ToString();
-          //  goldText.text = quest.goldReward.ToString();
+            experienceText.text = experienceReward.ToString();
+            goldText.text = goldReward.ToString();
 
         }
+
 
         public void DeclineQuest()
         {

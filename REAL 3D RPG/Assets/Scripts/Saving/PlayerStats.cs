@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -47,6 +48,14 @@ public class PlayerStats : MonoBehaviour
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        if(currentHealth <= 0)
+        {
+            FindObjectOfType<Respawn>().RespawnButton();
+
+            currentHealth = maxHealth;
+        }
+
 
         healthBar.SetHealth(currentHealth);
     }

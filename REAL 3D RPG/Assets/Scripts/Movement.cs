@@ -6,6 +6,11 @@ using UnityEngine.UI;
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour 
 {
+
+    public GameObject Shield;
+    public GameObject Axe;
+
+
     [Header("Speed Vars")]
     public float moveSpeed;
     public float walkSpeed, runSpeed, crouchSpeed, jumpSpeed;
@@ -35,7 +40,28 @@ public class Movement : MonoBehaviour
     {
         Move();
 
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            HideEquipment();
+            Axe.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            HideEquipment();
+            Shield.SetActive(true);
+        }
+
     }
+
+
+    private void HideEquipment()
+    {
+        Axe.SetActive(false);
+        Shield.SetActive(false);
+    }
+
+
     private void Move()
     {
         if (_charC.isGrounded)

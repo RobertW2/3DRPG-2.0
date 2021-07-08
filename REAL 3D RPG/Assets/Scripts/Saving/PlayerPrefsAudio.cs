@@ -21,4 +21,11 @@ public class PlayerPrefsAudio : MonoBehaviour
         PlayerPrefs.SetFloat("OptionLives", Music.value);
 
     }
+
+    public void AdjustMusicVolume(float value)
+    {
+        FindObjectOfType<MusicAudio>().GetComponent<AudioSource>().volume = value;
+    }
+
+
 }
